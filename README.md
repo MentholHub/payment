@@ -1,5 +1,11 @@
 # payment
 
+**Use pre-commit**:
+
+```bash
+pre-commit run -a
+```
+
 ## Create virtual environment
 
 ```bash
@@ -30,4 +36,13 @@ uvx nox -s lint
 nox --session test
 # OR
 uvx nox -s test
+```
+
+## Makefile
+
+```bash
+make format # format
+make lint # lint
+make test # test
+make check # pre-commit
 ```
