@@ -1,7 +1,7 @@
 # payment
 
-<img src="https://github.com/alexeev-prog/pyEchoNext/actions/workflows/test.yml/badge.svg">
-<img src="https://github.com/alexeev-prog/pyEchoNext/actions/workflows/linter.yml/badge.svg">
+<img src="https://github.com/MentholHub/payment/actions/workflows/test.yml/badge.svg">
+<img src="https://github.com/MentholHub/payment/actions/workflows/linter.yml/badge.svg">
 
 **Используйте pre-commit**:
 
