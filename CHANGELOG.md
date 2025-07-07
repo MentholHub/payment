@@ -1,3 +1,9 @@
+commit ca849104c4460073e43f9b8e930ef853bba4fdae
+Author: Alexeev Bronislav <alexeev.dev@mail.ru>
+Date:   Mon Jul 7 09:54:10 2025 +0700
+
+    fix badges in readme
+
 commit 157ac418588efc516465c15816a2fc2edfff27a9
 Author: Alexeev Bronislav <alexeev.dev@mail.ru>
 Date:   Mon Jul 7 09:53:13 2025 +0700

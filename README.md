@@ -26,7 +26,7 @@ pre-commit run -a
 
  + pyrefly>=0.22.2 - статический анализатор типов
  + black>=25.1.0 - форматирование
- + isort>=6.0.1 - сортировка импортов
+ + is>=6.0.1 - сортировка импортов
  + nox>=2025.5.1 - автоматизация сессий
  + pytest>=8.4.1 - тестирование
  + pytest-coverage>=0.0 - проверка покрытия кода тестами
@@ -46,7 +46,7 @@ uv sync
 
 ```bash
 nox --session format
-# OR
+# ИЛИ
 uvx nox -s format
 ```
 
@@ -54,7 +54,7 @@ uvx nox -s format
 
 ```bash
 nox --session lint
-# OR
+# ИЛИ
 uvx nox -s lint
 ```
 
@@ -62,16 +62,17 @@ uvx nox -s lint
 
 ```bash
 nox --session test
-# OR
+# ИЛИ
 uvx nox -s test
 ```
 
 ## Проверка типов
 
-``bash
+```bash
 nox --session typecheck
-# OR
+# ИЛИ
 uvx nox -s typecheck
+```
 
 ## Makefile
 
