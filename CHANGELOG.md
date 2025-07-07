@@ -1,3 +1,9 @@
+commit 1f65d5f674e1a0fd720ed56665d9d4be1ce5e131
+Author: Alexeev Bronislav <alexeev.dev@mail.ru>
+Date:   Mon Jul 7 10:11:24 2025 +0700
+
+    add mutants testing, edit readme
+
 commit 729d0663d2cc2d0d557998b516be10854ed5c8bd
 Author: Alexeev Bronislav <alexeev.dev@mail.ru>
 Date:   Mon Jul 7 10:03:05 2025 +0700

@@ -762,7 +762,6 @@ dependencies = [
     { name = "dishka" },
     { name = "faststream" },
     { name = "orjson" },
-    { name = "pre-commit" },
     { name = "redis" },
     { name = "sqlalchemy" },
 ]
@@ -774,6 +773,7 @@ dev = [
     { name = "locust" },
     { name = "mutmut" },
     { name = "nox" },
+    { name = "pre-commit" },
     { name = "pyrefly" },
     { name = "pytest" },
     { name = "pytest-coverage" },
@@ -787,7 +787,6 @@ requires-dist = [
     { name = "dishka", specifier = ">=1.6.0" },
     { name = "faststream", specifier = ">=0.5.44" },
     { name = "orjson", specifier = ">=3.10.18" },
-    { name = "pre-commit", specifier = ">=4.2.0" },
     { name = "redis", specifier = ">=6.2.0" },
     { name = "sqlalchemy", specifier = ">=2.0.41" },
 ]
@@ -799,6 +798,7 @@ dev = [
     { name = "locust", specifier = ">=2.37.11" },
     { name = "mutmut", specifier = ">=3.3.0" },
     { name = "nox", specifier = ">=2025.5.1" },
+    { name = "pre-commit", specifier = ">=4.2.0" },
     { name = "pyrefly", specifier = ">=0.22.2" },
     { name = "pytest", specifier = ">=8.4.1" },
     { name = "pytest-coverage", specifier = ">=0.0" },
