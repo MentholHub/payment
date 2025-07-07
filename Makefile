@@ -15,3 +15,6 @@ typecheck:
 
 stress:
 	uvx nox -s stress
+
+mutants:
+	uvx nox -s mutants

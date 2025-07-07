@@ -80,6 +80,22 @@ nox --session typecheck
 uvx nox -s typecheck
 ```
 
+## Стресс-тест
+
+```bash
+nox --session stress
+# ИЛИ
+uvx nox -s stress
+```
+
+## Тестирование с мутантами
+
+```bash
+nox --session mutants
+# ИЛИ
+uvx nox -s mutants
+```
+
 ## Makefile
 
 ```bash
@@ -88,4 +104,6 @@ make lint # lint
 make test # test
 make check # pre-commit
 make typecheck # type check
+make stress # stress test
+make mutants
 ```

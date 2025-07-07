@@ -31,3 +31,6 @@ jobs:
     - name: Test
       run: |
         nox --session test
+    - name: Test mutants
+      run: |
+        nox --session mutants

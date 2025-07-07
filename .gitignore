@@ -166,3 +166,4 @@ ignored/
 *.db
 *.log
 */*.log
+mutants/

@@ -57,3 +57,9 @@ def typecheck(session):
 def stress(session):
     session.install("locust")
     session.run("locust", "-f", "locustfile.py")
+
+
+@nox.session
+def mutants(session):
+    session.install("mutmut")
+    session.run("mutmut", "run")
