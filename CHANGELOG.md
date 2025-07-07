@@ -1,3 +1,9 @@
+commit 95f7e12103b7ba80ccf19f7bed52c14157d7779e
+Author: Alexeev Bronislav <alexeev.dev@mail.ru>
+Date:   Mon Jul 7 09:51:54 2025 +0700
+
+    update workflows, add pyrefly, update readme
+
 commit cd7dd1fe3358052f9ddd52a97387f30224233914
 Author: Alexeev Bronislav <alexeev.dev@mail.ru>
 Date:   Mon Jul 7 09:43:48 2025 +0700
