@@ -14,7 +14,6 @@ dependencies = [
     "faststream>=0.5.44",
     "orjson>=3.10.18",
     "pre-commit>=4.2.0",
-    "pytest-coverage>=0.0",
     "redis>=6.2.0",
     "sqlalchemy>=2.0.41",
 ]
@@ -96,6 +95,7 @@ dev = [
     "black>=25.1.0",
     "isort>=6.0.1",
     "nox>=2025.5.1",
+    "pyrefly>=0.22.2",
     "pytest>=8.4.1",
     "pytest-coverage>=0.0",
     "ruff>=0.12.2",

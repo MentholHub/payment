@@ -45,3 +45,10 @@ def format(session):
     session.run("isort", "src/payment/")
     session.run("black", "src/payment")
     session.run("ruff", "check", "src/payment/", "--fix")
+
+
+@nox.session
+def typecheck(session):
+    session.install("pyrefly")
+    session.run("pyrefly", "check", "src/payment/")
+

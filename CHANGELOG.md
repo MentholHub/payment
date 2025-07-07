@@ -1,3 +1,9 @@
+commit cd7dd1fe3358052f9ddd52a97387f30224233914
+Author: Alexeev Bronislav <alexeev.dev@mail.ru>
+Date:   Mon Jul 7 09:43:48 2025 +0700
+
+    update templates and requirements
+
 commit 8f9a8a235e033d08f56c215a69dd906137e62330
 Author: Alexeev Bronislav <alexeev.dev@mail.ru>
 Date:   Sun Jul 6 22:23:46 2025 +0700

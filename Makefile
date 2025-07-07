@@ -8,4 +8,7 @@ test:
 	uvx nox -s test
 
 check:
-	uv run pre-commit run -a
+	uvx pre-commit run -a
+
+typecheck:
+	uvx pyrefly check src/payment 
