@@ -52,3 +52,8 @@ def typecheck(session):
     session.install("pyrefly")
     session.run("pyrefly", "check", "src/payment/")
 
+
+@nox.session
+def stress(session):
+    session.install("locust")
+    session.run("locust", "-f", "locustfile.py")

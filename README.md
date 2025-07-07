@@ -1,11 +1,14 @@
 # payment
 
 <div align="center">
+<p>Статус прохождения тестов и линтера</p>
 <img src="https://github.com/MentholHub/payment/actions/workflows/test.yml/badge.svg">
 <img src="https://github.com/MentholHub/payment/actions/workflows/linter.yml/badge.svg">
 </div>
 
-**Используйте pre-commit**:
+---
+
+**Не забывайте про pre-commit**:
 
 ```bash
 pre-commit run -a
@@ -33,6 +36,7 @@ pre-commit run -a
  + pytest>=8.4.1 - тестирование
  + pytest-coverage>=0.0 - проверка покрытия кода тестами
  + ruff>=0.12.2 - линтер-форматтер
+ + locust>=2.37.11 - стресс-тесты
 
 ---
 

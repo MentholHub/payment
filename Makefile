@@ -11,4 +11,7 @@ check:
 	uvx pre-commit run -a
 
 typecheck:
-	uvx pyrefly check src/payment 
+	uvx nox -s typecheck
+
+stress:
+	uvx nox -s stress
