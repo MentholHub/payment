@@ -26,6 +26,7 @@ pre-commit run -a
  + pre-commit>=4.2.0 - pre-commit
  + redis>=6.2.0 - редис
  + sqlalchemy>=2.0.41 - ORM
+ + pyminideprecator>=0.2.0 - быстрая и стабильная библиотека (со 100% покрытием тестами) для помечания функций, классов, методов как устаревшие (deprecated)
 
 ### Dev
 

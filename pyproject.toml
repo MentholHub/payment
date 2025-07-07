@@ -13,6 +13,7 @@ dependencies = [
     "dishka>=1.6.0",
     "faststream>=0.5.44",
     "orjson>=3.10.18",
+    "pyminideprecator>=0.2.0",
     "redis>=6.2.0",
     "sqlalchemy>=2.0.41",
 ]
