@@ -1,12 +1,42 @@
-<!-- Please explain the changes you made -->
+# Pull Request
 
-<!--
-Please, make sure:
-- you have read the contributing guidelines:
-  https://github.com/{{gh-username}}/{{project-name}}/blob/main/docs/CONTRIBUTING.md
-- you have formatted the code using rustfmt:
-  https://github.com/rust-lang/rustfmt
-- you have checked that all tests pass, by running `cargo test --workspace`
-- you have updated the changelog (if needed):
-  https://github.com/{{gh-username}}/{{project-name}}/blob/main/CHANGELOG.md
--->
+Я:
+
+ - [ ] Реализовал все тесты для 100% покрытия
+ - [ ] Запустил pre-commit
+ - [ ] Написал документацию
+ - [ ] Запустил линтер
+ - [ ] Проверил обратную совместимость
+ - [ ] Программное API
+
+Мне нужна:
+
+ - [ ] Помощь с тестами
+ - [ ] Помощь с линтером
+ - [ ] Код-ревью
+
+## Описание
+
+---
+
+## Добавлено
+<!-- Что ты добавил в этом PR? -->
+
+## Изменено
+<!-- Что ты изменил в этом PR? -->
+
+## Удалено
+<!-- Что ты удалил в этом PR? -->
+
+## Связан ли PR с issue? Какими и как он решает проблему?
+<!-- Есть ли issue, которые как то связаны с твоим PR -->
+
+## Программное API
+<!-- Как ты работал над программным API? -->
+
+## Депрекации
+<!-- В этом PR стал ли какой то функционал deprecated? Он недоступен и вырезан, или доступен и им можно пользоваться с предупреждениями? -->
+
+---
+
+## Дополнительно

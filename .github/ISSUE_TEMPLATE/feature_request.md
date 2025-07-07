@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Идея о фиче
+about: Интересная идея о фиче
 title: ''
 labels: enhancement
 assignees: ''
@@ -13,16 +13,16 @@ assignees: ''
 If your feature request is related to a problem, please describe it.
 -->
 
-- Would you like to implement this feature? [y/n]
+- Хочу ли я заняться этой фичей [y/n]
 
-## Solution
+## Решение
 
 <!-- Describe the solution you'd like. -->
 
-## Alternatives
+## Альтернативы
 
 <!-- Describe any alternative solutions or features you've considered. -->
 
-## Additional context
+## Дополнительно
 
 <!-- Add any other context or screenshots about the feature request here. -->

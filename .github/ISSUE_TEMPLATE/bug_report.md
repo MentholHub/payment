@@ -1,19 +1,19 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Отчет за грехи
+about: Создайте репорт, чтобы объявить о багах
 title: ''
 labels: bug
 assignees: ''
 
 ---
 
-## Bug description
+## Описание
 
 <!-- A clear and concise description of what the bug is. -->
 
-- Would you like to work on a fix? [y/n]
+- Хочу ли я работать над этим багом? (да/нет)
 
-## To Reproduce
+## Как воспроизвести
 
 Steps to reproduce the behavior:
 
@@ -24,21 +24,20 @@ Steps to reproduce the behavior:
 
 <!-- Make sure you are able to reproduce the bug in the main branch, too. -->
 
-## Expected behavior
+## Ожидаемое действие
 
 <!-- A clear and concise description of what you expected to happen. -->
 
-## Screenshots
+## Скриншоты
 
 <!-- If applicable, add screenshots to help explain your problem. -->
 
-## Environment
+## Окружение
 
 <!-- Please fill the following information. -->
 
 - OS: [e.g. Ubuntu 20.04]
-- {{project-name}} version: [e.g. 0.1.0]
 
-## Additional context
+## Дополнительный контекст
 
 <!-- Add any other context about the problem here. -->
