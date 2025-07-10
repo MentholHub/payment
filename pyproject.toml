@@ -16,9 +16,11 @@ dependencies = [
     "faststream>=0.5.44",
     "orjson>=3.10.18",
     "pydantic-settings>=2.10.1",
-    "pyminideprecator>=0.2.0",
+    "pyminideprecator>=0.2.1",
     "redis>=6.2.0",
     "sqlalchemy>=2.0.41",
+    "taskiq>=0.11.17",
+    "toml>=0.10.2",
 ]
 
 [tool.ruff.format]

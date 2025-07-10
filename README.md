@@ -27,6 +27,10 @@ pre-commit run -a
  + redis>=6.2.0 - редис
  + sqlalchemy>=2.0.41 - ORM
  + pyminideprecator>=0.2.0 - быстрая и стабильная библиотека (со 100% покрытием тестами) для помечания функций, классов, методов как устаревшие (deprecated)
+ + alembic>=1.16.4 - менеджер миграции баз данных для ORM SQLAlchemy
+ + asyncpg>=0.30.0 - async postgresql
+ + toml==0.10.2 - toml
+ + taskiq==0.11.17 - очереди
 
 ### Dev
 
