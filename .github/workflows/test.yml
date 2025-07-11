@@ -29,8 +29,6 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install nox uv
     - name: Test
-      run: |
-        nox --session test
+      run: nox --session test
     - name: Test mutants
-      run: |
-        nox --session mutants
+      run: nox --session mutants

@@ -29,5 +29,4 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install nox uv
     - name: Lint
-      run: |
-        nox --session lint
+      run: nox --session lint
