@@ -27,11 +27,14 @@ jobs:
         with:
           activate-environment: true
 
-      - name: Run make format
+      - name: Install all dependencies
+        run: make install
+
+      - name: Run formatters
         run: make format
 
-      - name: Run make lint
+      - name: Run linting
         run: make lint
 
-      - name: Run make test
+      - name: Run tests
         run: make test
