@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+uv.lock
+
+# Environment
+.env
+.env.local
+.envrc
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Tests
+.pytest_cache
