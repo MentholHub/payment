@@ -28,7 +28,7 @@ jobs:
           activate-environment: true
 
       - name: Install all dependencies
-        run: make install
+        run: uv sync
 
       - name: Run formatters
         run: make format
