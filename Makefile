@@ -38,9 +38,5 @@ run:
 
 test:
 	@echo "Run testing..."
-	@pytest -v -s --tb=short --strict-markers tests/
+	@pytest --cov-fail-under=100 -v -s --tb=short --strict-markers -n=auto tests/
 	@echo "Done"
-
-stress:
-	@echo "Run locust stress-testing..."
-	@locust -f stress.py
