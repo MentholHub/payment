@@ -1,11 +1,3 @@
-install:
-	@echo "Run syncing..."
-	@uv sync
-	@echo "Done"
-	@echo "Creating venv..."
-	@uv venv
-	@echo "Done"
-
 lock:
 	@echo "Run locking..."
 	@uv lock
@@ -33,10 +25,16 @@ lint:
 	@echo "Done"
 
 run:
-	@echo "Run app on port :8000..."
-	@uvicorn src.main:app --reload --port 8000
+	@echo "Run app..."
+	@docker compose down -v
+	@docker compose up -d --build
 
 test:
 	@echo "Run testing..."
-	@pytest --cov-fail-under=100 -v -s --tb=short --strict-markers -n=auto tests/
+	@pytest -v -s --tb=short --strict-markers -n=auto tests/
+	@echo "Done"
+
+migrate:
+	@echo "Apply migrations..."
+	@docker compose exec web alembic upgrade head
 	@echo "Done"
