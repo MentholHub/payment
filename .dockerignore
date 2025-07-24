@@ -1,0 +1,12 @@
+.dockerignore
+Dockerfile
+docker-compose.yml
+README.md
+.pre-commit-config.yaml
+.env.example
+.editorconfig
+.coverage
+__pycache__/
+.venv/
+.pytest_cache/
+.github/
